@@ -223,7 +223,7 @@ main {
     border-color: #f8f8f8;
     border-width: 0rem;
     width: fit-content;
-    background-image: url(/css/images/Background.jpeg);
+    background-image: url("../images/Background.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
