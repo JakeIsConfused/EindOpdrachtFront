@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <html lang="en">
+    <title>Eindopdracht van Jeacqke M.A</title>
+</head>
+
+<body>
+    <header #homescreen class="login" a href="Top">
+        <img src="css/images/Logo.webp" width="159.2" height="57.2">
+        <div class="toplinks">
+            <button type="submit"><a href="">Login</a></button>
+            
+            <button type="register">
+                <a href="#Home" class="active">Home </a>
+            </button>
+            
+
+            <button type="">
+                <a href="#Contact" class="contact">Contact </a>
+            </button>
+        </div>
+    </header>
+    <main>
+
+        <section class="map" id="lore" >
+            <h1 class="top">
+                Story of For Honor
+            </h1>
+
+            
+            <p class="mapinfo">The story of For Honor is set in a fictional region called
+                Heathmoor where 4 of the 5 factions fight in battle
+                Heathmoor is a mix of multiple ecosystems,
+                but primarily is one of three kinds of climates: temperate in the Southwest,
+                tundra in the North and wetlands in the Southeast. The Northeast part of Heathmoor
+                stems out into an ocean, with either a strait or canal cutting through the
+                Valkenheim region towards the West.
+            </p>
+            <div>
+
+            </div>
+            <div>
+                <a href=""></a>
+            </div>
+        </section>
+        <section class=" groups">
+            <div class="factions">
+                <div class="faction">
+                    <h3>
+                        Knight
+                    </h3>
+                    <div>
+                        <img src="css/images/Knight_Symbol.png" class="symbol">
+                    </div>
+                    <p>
+                        For Knights, honor and duty go hand-in-hand.
+                        Oaths were not lightly broken and many knights
+                        serve warlords they do not look highly upon.
+                        Honor was not tied to imprisonment as doing
+                        so was considered an act of mercy
+                    </p>
+                </div>
+                <div class="faction">
+                    <h3>
+                        Samurai
+                    </h3>
+                    <div>
+                        <img src="css/images/Samurai_Symbol.png" class="symbol">
+                    </div>
+                    <p>Honor is highly valued amongst the Samurai. They are loyal to death,
+                        battling to defend those they have been sworn
+                        to even in hopeless situations, and vowing vengeance should their
+                        master be slain. Pride, ambition, and honor seem to be linked
+                        as demotion is seen as dishonor to the point the act of jailing
+                        a person is considered a grievous insult.</p>
+                </div>
+                <div class="faction">
+                    <h3>
+                        Viking
+                    </h3>
+                    <div>
+                        <img src="css/images/FH_Warborn_Faction.webp" class="symbol">
+                    </div>
+                    <p>For Vikings, honor is tied to reputation. Bravery, nobility, magnanimity,
+                        a sense of fair play, respect for others, and the strength to do what
+                        is right is praised. Acts of cowardice and treachery are reviled. Freedom is highly
+                        valued and the act of taking someone prisoner is to make them your slave
+                    </p>
+                </div>
+                <div class="faction">
+                    <h3>
+                        Wu Lin
+                    </h3>
+                    <div class="">
+                        <img src="css/images/WuLin.png" class="symbol">
+                    </div>
+                    <p>When the Cataclysm hit, China was not prepared for the civil war that would break out.
+                        Even when a ruler was established under a prestigious dynasty, kingdoms
+                        would fall from unrest and rebellions. As a result of all this conflict and misery,
+                        a number of warriors have chosen to venture West, finding themselves in Heathmoore.
+                        Whether or not they will find peace or a resolution in this new land is left up to
+                        question, but they have chosen to join the faction war as the foreign fourth group of
+                        miscellaneous warriors.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="form_full">
+            <div id="Contact">
+                <h1>
+                    Contact
+                </h1>
+            </div>
+            <form>
+                <div class="formfield">
+                    <div class="formrow">
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="example: John" required="">
+                    </div>
+                    <div class="formrow">
+                        <label for="lastname">Surname</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="example: Doe" required="">
+                    </div>
+                </div>
+                <div class="formrow">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="example: iamtheomega@gmail.com"
+                        required="">
+                </div>
+                <div class="formfield">
+
+                    <div class="formrow">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city" required="">
+                    </div>
+                    <div class="formrow">
+                        <label for="birthdate">Geboortedatum</label>
+                        <input type="date" name="birthdate" id="birthdate" required="">
+                    </div>
+                </div>
+                </div>
+                <div class="formcolumm">
+                    <label for="subject">Favourite Faction</label>
+                    <select id="subject" name="subject" required="">
+                        <option value="" disabled="">Choose a Faction</option>
+                        <option value="1">Knight</option>
+                        <option value="2">Viking</option>
+                        <option value="3">Samurai</option>
+                        <option value="4">WU Lin</option>
+                    </select>
+                </div>
+                <div class="formrow">
+                    <label for="message">Text Message</label>
+                    <textarea name="message" rows="7" required=""></textarea>
+                </div>
+                <label for="newsletter">Do you want to keep up with our newsletter?</label>
+                <div class="newsletter">
+                    <input type="radio" id="no" name="newsletter" value="1" required="">
+                    <label for="Yes">Yes</label>
+                    <input type="radio" id="no" name="newsletter" value="2" required="">
+                    <label for="no">No</label>
+                </div>
+                <div class="newsletter">
+                    <input type="checkbox" id="agreed" name="agreed" value="agreed" required="">
+                    <label for="agreed">I agree to the Terms and Conditions</label>
+                </div>
+                <button type="submit"><a href="">Submit Message</a></button>
+            </form>
+        </section>
+        </section>
+    </main>
+    <footer class="footlinks" id="Foot">
+            <button type="foot">
+                <a href="">Privacy Policy</a>
+            </button>
+            <button type="foot">
+                <a href="">Terms & Conditions</a>
+            </button>
+            <button type="foot">
+                <a href="">Cookie Policy</a>
+            </button>
+            <button type="foot" id="Top">
+                <a href="">Top</a>
+            </button>
+            <div>Jeacqke M.A</div>
+    </footer>
+</body>
+
+</html>
