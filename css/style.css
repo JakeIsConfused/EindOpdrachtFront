@@ -205,7 +205,7 @@ main {
     background-color: #ded4d4;
 }
 .map{
-    background-image: url(/css/images/TopDownMap.jpg);
+    background-image: url("../images/TopDownMap.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
