@@ -60,7 +60,7 @@ p{
 
 header {
     display: flex;
-    background-image:"../css/images/forhonor.jpeg)"
+     background-image: url("../images/forhonor.jpeg");
     background-position-y: 65%;
     background-size: cover;
     position: fixed;
